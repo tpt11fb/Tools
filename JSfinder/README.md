@@ -42,19 +42,19 @@ python JSFinder.py -f text.txt -j
 
 ​	为了方便简单使用和得出的数据结构更为直观，我对其进行如下的改造
 
-![image-20220201133255573](/images/image-20220201133255573.png)
+![image-20220201133255573](https://github.com/tpt11fb/Tools/blob/main/JSfinder/images/image-20220201133255573.png)
 
 ​	JSfinder改写成一个类，方便调用
 
-![image-20220201133040787](/images/image-20220201133040787.png)
+![image-20220201133040787](https://github.com/tpt11fb/Tools/blob/main/JSfinder/images/image-20220201133040787.png)
 
 ​	使用线程池加速爬取和解析
 
-![image-20220201133418366](/images/image-20220201133418366.png)
+![image-20220201133418366](https://github.com/tpt11fb/Tools/blob/main/JSfinder/images/image-20220201133418366.png)
 
 ​	导出报告，并对爬取到的js接口使用多线程进行验证，使拿到的数据跟精确（返回包是否200？是否404？）
 
-![image-20220201133534652](/images/image-20220201133534652.png)
+![image-20220201133534652](https://github.com/tpt11fb/Tools/blob/main/JSfinder/images/image-20220201133534652.png)
 
 # 使用方式
 
@@ -78,4 +78,4 @@ python JSFinder.py -f text.txt -html 1
 
 ## 使用截图
 
-![image-20220201133859143](/images/image-20220201133859143.png)
+![image-20220201133859143](https://github.com/tpt11fb/Tools/blob/main/JSfinder/images/image-20220201133859143.png)
